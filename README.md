@@ -2,7 +2,7 @@
 
 Sitio web de portfolio para artista visual chilena, construido con Zola + Tailwind CSS.
 
-**Repositorio:** https://github.com/matreyes/Carola  
+**Repositorio:** https://github.com/matreyes/carola  
 **Demo local:** http://pot:1111
 
 ---

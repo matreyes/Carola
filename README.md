@@ -1,6 +1,11 @@
 # Portfolio Carolina Vildósola
 
-Sitio web de portfolio para artista visual, construido con Zola + Tailwind CSS.
+Sitio web de portfolio para artista visual chilena, construido con Zola + Tailwind CSS.
+
+**Repositorio:** https://github.com/matreyes/Carola  
+**Demo local:** http://pot:1111
+
+---
 
 ## 🚀 Inicio Rápido
 

@@ -12,10 +12,54 @@
 @layer utilities {
   .prose {
     max-width: 65ch;
+    color: #374151;
   }
   
   .prose p {
     margin-bottom: 1.25em;
     line-height: 1.75;
+  }
+  
+  .prose h2 {
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.3;
+  }
+  
+  .prose h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1.75em;
+    margin-bottom: 0.75em;
+  }
+  
+  .prose blockquote {
+    border-left: 3px solid #d1d5db;
+    padding-left: 1.5em;
+    font-style: italic;
+    color: #6b7280;
+    margin: 1.5em 0;
+  }
+  
+  .prose strong {
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .prose a {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  .prose a:hover {
+    color: #1d4ed8;
+  }
+  
+  .prose hr {
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+    margin: 2em 0;
   }
 }

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<article class="container mx-auto px-6 py-20 max-w-4xl">
+    <h1 class="text-4xl font-light mb-12 text-center">{{ page.title }}</h1>
+    
+    {% if page.extra.image %}
+    <div class="mb-12 flex justify-center">
+        <img src="{{ page.extra.image }}" 
+             alt="{{ page.title }}" 
+             class="rounded shadow-lg max-w-xs">
+    </div>
+    {% endif %}
+    
+    {% if page.content %}
+    <div class="prose prose-lg prose-gray max-w-none">
+        {{ page.content | safe }}
+    </div>
+    {% endif %}
+</article>
+{% endblock content %}

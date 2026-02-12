@@ -1,16 +1,14 @@
 +++
 title = "Contacto"
-template = "page.html"
+template = "contacto.html"
 +++
-
-## Contacto
 
 Para consultas sobre obra, proyectos, exposiciones o adquisiciones, por favor contactar a:
 
 **Carolina Vildósola P.**  
 Artista Visual
 
-**Email:** contacto@carolinavildosola.com
+**Email:** artkarola@gmail.com
 
 ---
 

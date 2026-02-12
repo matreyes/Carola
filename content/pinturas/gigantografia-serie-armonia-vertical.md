@@ -2,7 +2,7 @@
 title = "Gigantografía serie Armonía Vertical"
 date = 2024-01-25
 [extra]
-category = "Instalaciones"
+category = "Pinturas"
 medium = "Acrílico sobre tela"
 dimensions = "100 x 400 cm"
 year = 2006

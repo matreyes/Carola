@@ -51,23 +51,23 @@
             <div class="mt-8">
                 {% if page.extra.category %}
                     {% if page.extra.category == "Grabados" %}
-                        <a href="{{ get_url(path='/grabados') }}" 
+                        <a href="/grabados" 
                            class="inline-block text-sm hover:text-gray-600 transition">
                             ← Volver a Grabados
                         </a>
                     {% elif page.extra.category == "Pinturas" %}
-                        <a href="{{ get_url(path='/pinturas') }}" 
+                        <a href="/pinturas" 
                            class="inline-block text-sm hover:text-gray-600 transition">
                             ← Volver a Pinturas
                         </a>
                     {% elif page.extra.category == "Instalaciones" %}
-                        <a href="{{ get_url(path='/instalaciones') }}" 
+                        <a href="/instalaciones" 
                            class="inline-block text-sm hover:text-gray-600 transition">
                             ← Volver a Instalaciones
                         </a>
                     {% endif %}
                 {% else %}
-                    <a href="{{ get_url(path='/') }}" 
+                    <a href="/" 
                        class="inline-block text-sm hover:text-gray-600 transition">
                         ← Volver al inicio
                     </a>
